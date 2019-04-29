@@ -79,6 +79,22 @@ class Cbook extends CI_Controller {
 
 		redirect('index.php/Cbook/buku');	
 
+    }
+    
+    public function addReport()
+	{
+		$email1 = $this->input->post('email');
+		$tipe_r = $this->input->post('topic');
+		$report = $this->input->post('report');
+		$report_data = array(
+			'email' => $email1,
+			'tipe_report' => $tipe_r,
+			'report' => $report,
+		);
+		$this->M_book->tambah_report($report_data);
+
+		redirect('index.php/Cbook/reportPage');	
+
 	}
     
 }
