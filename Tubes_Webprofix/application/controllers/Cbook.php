@@ -57,6 +57,28 @@ class Cbook extends CI_Controller {
 		$this->load->view('page_header');
 		$this->load->view('page_report');
 		$this->load->view('page_footer');
+    }
+    
+    public function tambahbuku()
+	{
+		$title = $this->input->post('judul');
+		$author = $this->input->post('autor');
+		$penerbit = $this->input->post('publiser');
+		$waktuTerbit = $this->input->post('waktu_publis');
+		$tipe = $this->input->post('select');
+		$idNumber = $this->input->post('num');
+		$data = array(
+			'title' => $title,
+			'author' => $author,
+			'publisher' => $penerbit,
+			'waktu_publish' => $waktuTerbit,
+			'tipe' => $tipe,
+			'id_number' => $idNumber,
+		);
+		$this->M_book->tambah_buku($data);
+
+		redirect('index.php/Cbook/buku');	
+
 	}
     
 }
