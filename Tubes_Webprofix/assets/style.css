@@ -1,0 +1,127 @@
+body {
+    font-size: 100%;
+    line-height: normal;
+    background-color: #e2dcc5;
+    font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande",Verdana,Geneva,Helvetica,Arial,sans-serif;
+    color: #666;
+    font-weight: 600;
+}
+img.category-img {
+    display: block;
+    margin-top: 5px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: #666;
+}
+.category-icon {
+    margin: 0 auto;
+    width: 30px;
+}
+p.category-title {
+    font-size: .875em;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    margin-top: 5px;
+}
+p.category-count {
+    text-align: center;
+    font-size: .7em;
+    line-height: 1;
+    color: #666;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    font-style: italic;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.home-h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #035a8c;
+    margin-bottom: .5em;
+    margin-top: 1.75em;
+}
+.carousel-container-decorated {
+    background: #f3edd8;
+    border-bottom: 1px solid #e5e1cd;
+    border-top: 1px solid #eae7d7;
+    margin: 0 -20px;
+    padding: 3px 15px;
+}
+img.bookcover {
+    margin: 0 auto;
+    box-shadow: 1px 2px 5px 0 #c3b683;
+    border-radius: 3px;
+    display: block;
+}
+.book-cover {
+	border-radius: 3px;
+	display: block;
+}
+
+div.head {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+#about-mission {
+    flex: 2;
+    min-width: 300px;
+    max-width: 439px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    font-family: "Georgia","Times New Roman",serif;
+}
+#about-mission-long {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: "Georgia","Times New Roman",serif;
+    color: #333;
+    font-weight: normal;
+}
+#about-mission-description {
+    font-size: .875em;
+    line-height: 1.5em;
+}
+.resource-section {
+    flex: 1;
+    font-size: 12px;
+    min-width: 150px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    list-style: none;
+    color: #333;
+}
