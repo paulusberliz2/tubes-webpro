@@ -1,37 +1,36 @@
 </div>
 <div class="row" style="margin:left">
             <div class="col-md-3">
-                <h6 class="text-muted"style="margin-bottom:-20px">Open Library</h6> </br>
-                <a href="#"><span class="text-dark"><u>Vision</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Careers</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Term of Service</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Donate</u></span></a> </br>
+                <h6 class="text-muted"style="margin-bottom:-20px">Open Library</h6>
+                <a href="#"><span class="text-dark"><u>Vision</u></span></a> 
+                <a href="#"><span class="text-dark"><u>Careers</u></span></a> 
+                <a href="#"><span class="text-dark"><u>Term of Service</u></span></a> 
+                <a href="#"><span class="text-dark"><u>Donate</u></span></a> 
             </div>
             <div class="col-md-3">
-                <h6 class="text-muted"style="margin-bottom:-20px">Discover</h6> </br>
-                <a href="#"><span class="text-dark"><u>Home</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Books</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Authors</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Subjects</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Advanced Search</u></span></a> </br>
+                <h6 class="text-muted"style="margin-bottom:-20px">Discover</h6> 
+                <a href="#"><span class="text-dark"><u>Home</u></span></a>
+                <a href="#"><span class="text-dark"><u>Books</u></span></a> 
+                <a href="#"><span class="text-dark"><u>Authors</u></span></a>
+                <a href="#"><span class="text-dark"><u>Subjects</u></span></a> 
+                <a href="#"><span class="text-dark"><u>Advanced Search</u></span></a> 
             </div>
             <div class="col-md-3">
-                <h6 class="text-muted"style="margin-bottom:-20px">Develop</h6> </br>
-                <a href="#"><span class="text-dark"><u>Development Center</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>API Documentation</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Bulk Data Dumps</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Writing Bots</u></span></a> </br>
+                <h6 class="text-muted"style="margin-bottom:-20px">Develop</h6> 
+                <a href="#"><span class="text-dark"><u>Development Center</u></span></a> 
+                <a href="#"><span class="text-dark"><u>API Documentation</u></span></a> 
+                <a href="#"><span class="text-dark"><u>Bulk Data Dumps</u></span></a> 
+                <a href="#"><span class="text-dark"><u>Writing Bots</u></span></a> 
             </div>
             <div class="col-md-3">
-                <h6 class="text-muted"style="margin-bottom:-20px">Help</h6> </br>
-                <a href="<?php echo base_url('index.php/Cbook/help') ?>"><span class="text-dark"><u>Help Center</u></span></a> </br>
-                <a href="<?php echo base_url('index.php/Cbook/reportPage') ?>"><span class="text-dark"><u>Report A Problem</u></span></a> </br>
-                <a href="#"><span class="text-dark"><u>Suggesting Edits</u></span></a> </br>
+                <h6 class="text-muted"style="margin-bottom:-20px">Help</h6> 
+                <a href="<?php echo base_url('index.php/Cbook/help') ?>"><span class="text-dark"><u>Help Center</u></span></a> 
+                <a href="<?php echo base_url('index.php/Cbook/reportPage') ?>"><span class="text-dark"><u>Report A Problem</u></span></a>
+                <a href="#"><span class="text-dark"><u>Suggesting Edits</u></span></a> 
                 <a href="#" ><img src="<?php echo base_url('assets/image/sosmed.jpg') ?>"></a>
                 
             </div>
         </div>
-        </br>
         <div class="row">
             <div class="col-md-1">
                 <img src="<?php echo base_url("assets/image/ailogo.png") ?>" alt="">
